@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 void print_alphabet(void)
 {
 	char letter = 'a';
