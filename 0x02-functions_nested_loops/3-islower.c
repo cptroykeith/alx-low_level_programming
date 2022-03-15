@@ -1,15 +1,17 @@
 #include "main.h"
 /**
-* print_alphabet - Entry point
-* Return:0
+* _islower - function that checks for lowercase character.
+* @c: The input character to check
+* Return: int.
 */
-void print_alphabet(void)
+int _islower(int c)
 {
-char c = 'a';
-while (c <= 'z')
+if (c >= 97 && c <= 122)
 {
-_putchar(c);
-c++;
+return (1);
 }
-_putchar('\n');
+else
+{
+return (0);
+}
 }
