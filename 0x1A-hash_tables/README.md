@@ -119,4 +119,4 @@ Advanced Tasks
 	     shash_node_t **array;
 	     shash_node_t *shead;
 	     shash_node_t *stail;
-	} shash_table_t;
+	} shash_table_t;.
