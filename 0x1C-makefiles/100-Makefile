@@ -1,4 +1,3 @@
-
 CC = gcc
 NAME = school
 SRC = main.c school.c
